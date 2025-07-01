@@ -36,7 +36,7 @@ The approximation is performed **separately for R, G, and B channels**, followed
 
 | Rank 4 | Rank 8 | Rank 32 |
 |--------|--------|---------|
-| ![Mandrill Rank 4](results/mandrill.png_rank_4.png) | ![Mandrill Rank 8](results/mandrill.png_rank_8.png) | ![Mandrill Rank 32](results/mandrill.png_rank_32.png) |
+| ![Mandrill Rank 2](results/mandrill.png_rank_2.png) | ![Mandrill Rank 8](results/mandrill.png_rank_8.png) | ![Mandrill Rank 32](results/mandrill.png_rank_32.png) |
 
 ### Reconstruction Error vs Rank
 
