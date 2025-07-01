@@ -34,7 +34,7 @@ The approximation is performed **separately for R, G, and B channels**, followed
 
 ### Mandrill Face Reconstructions
 
-| Rank 4 | Rank 8 | Rank 32 |
+| Rank 2 | Rank 8 | Rank 32 |
 |--------|--------|---------|
 | ![Mandrill Rank 2](results/mandrill.png_rank_2.png) | ![Mandrill Rank 8](results/mandrill.png_rank_8.png) | ![Mandrill Rank 32](results/mandrill.png_rank_32.png) |
 
