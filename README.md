@@ -24,7 +24,7 @@ The approximation is performed **separately for R, G, and B channels**, followed
 - Orthogonal deflation after each iteration
 - Reconstructed image = recombined RGB channels
 
-## 📊 Results
+## Results
 
 ### Brueghel Painting Reconstructions
 
@@ -45,38 +45,24 @@ The approximation is performed **separately for R, G, and B channels**, followed
 - The **Mandrill image** compresses more efficiently (steeper error decline).
 - The **Brueghel painting** requires higher rank to preserve detailed textures.
 
-## 💾 Storage Efficiency
+## Storage Efficiency
 
-Original image size:  
-\[
-3 \times m \times n
-\]
+Original image size:  \( 3 \times m \times n \)
 
-Compressed image size (rank \( r \)):  
-\[
-3r(m + n + 1)
-\]
+Compressed image size (rank \( r \)):  \( 3r(m + n + 1) \)
 
 Even at rank 16, over **80% reduction** in storage is possible with acceptable quality.
 
-## 📌 Conclusions
+## Conclusions
 
 - TSVD is highly effective for structured images with distinct features (e.g. Mandrill)
 - Rich-textured images (e.g. Brueghel) require higher ranks
 - Compression quality is tunable by rank — useful for bandwidth-limited systems
 
-## 📁 Files
+## Files
 
 - `tsvd_compression_complete.ipynb`: Full Python implementation
 - Image outputs: reconstruction samples for ranks 2–64
 - `mandrill_vs_brueghel_error.png`: Error vs rank comparison plot
 - `numeric_term_project_report.pdf`: Detailed report
-
-## 👨‍💻 Author
-
-**Ömer Faruk San**  
-Department of AI and Data Engineering  
-Istanbul Technical University  
-📧 san22@itu.edu.tr
-
 
